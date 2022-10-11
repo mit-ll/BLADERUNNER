@@ -1,5 +1,5 @@
 PROJECT:
-    BladeRunner
+    BLADERUNNER
 
 AUTHOR:
     Adam D. Wong (@MalwareMorghulis/"Gh0st")
