@@ -11,7 +11,7 @@ SUPPORTING ANALYSTS:
     Joshua Nadeau
     
 ABOUT:
-    BladeRunner is an over-arching project consisting of 2x scripts to counter StyleGAN-based synethetic faces.
+    BLADERUNNER is an over-arching project consisting of 2x scripts to counter StyleGAN-based synethetic faces.
     - (Detector) Papers_Please.py takes given known hostile data sets, scales photos down, and produces CSVs of coordinates of faces to load back into AmongUs.
     - (Analyzer) Among_Us.py takes unknown photos and tests PapersPlease coordinates against predicted eye-location. Based on mappings, they image may or may not be StyleGAN.
 
