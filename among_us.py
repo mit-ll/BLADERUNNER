@@ -321,8 +321,9 @@ def detect_face(path):
         for k in LM_eyes[1]:
             cv2.circle(img_obj, marker[k], 1, (0, 0, 255), -1)
 
-
-        output_path = os.path.join(marked_dir, str(reso) + ".jpg")
+        
+        marked_filename = os.path.basename(img_path)
+        output_path = os.path.join(marked_dir, marked_filename)
         cv2.imwrite(output_path, img_obj)
 
         #test_name = "TEST.jpg"
@@ -635,6 +636,7 @@ if production_mode:
                     print(output_data + ut_data)
 
             except KeyError as e:
+                # Print (a, b) indicates resolution mismatch - not coded in dictionary.
                 print(e)
 
         # Close the CSV File
@@ -662,4 +664,5 @@ else:
         print(output_data)
 
     except KeyError as e:
+        # Print (a, b) indicates resolution mismatch - not coded in dictionary.
         print(e)
