@@ -4,6 +4,9 @@ PROJECT:
 AUTHOR:
     Adam D. Wong (@MalwareMorghulis/"Gh0st")
     
+WHITEPAPER:
+    https://arxiv.org/abs/2210.06587
+
 SUPPORTING ANALYSTS:
     Beau J. Guidry
     Raul Harnasch
