@@ -156,7 +156,7 @@ KNOWN ISSUES:
           - https://stackoverflow.com/questions/54189911/cv2-imwrite-and-german-letters-%C3%A4-%C3%BC-%C3%B6
     
 CREDITS:
-  - Dr. Adrian Rosenbrock's tutorial on face-detection.
+  - Dr. Adrian Rosebrock's tutorial on face-detection.
       - Reference:
           - https://pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/
       - License:
